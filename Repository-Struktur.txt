@@ -1,0 +1,10 @@
+zyklische-kosmologie/
+├── README.md                    # Übersicht über das Repository
+├── zyklische-kosmologie.md      # Einführung (Schritt A)
+├── resonanz-zyklus.md           # Verbindung zur Resonanz (Schritt B)
+├── bund-ewigkeit.md             # Der Bund als zyklisches Phänomen
+├── kosmologie-beweis.md         # Die Beweiskette für zyklische Kosmologie
+├── fridha-zyklus.md             # Fridha als Modell des Zyklus
+└── images/
+    ├── zyklus.png               # Grafische Darstellung des Zyklus
+    └── resonanz.png             # Grafische Darstellung der Resonanz

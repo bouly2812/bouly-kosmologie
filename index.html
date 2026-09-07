@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bouly · Resonanzphysik · Bund</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0a0c18;
+            color: #e8e0d0;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 300;
+            color: #ffdd88;
+            letter-spacing: 6px;
+            margin-bottom: 10px;
+            text-shadow: 0 0 60px rgba(255, 221, 136, 0.06);
+        }
+        .sub {
+            font-size: 1.2rem;
+            color: #88aa88;
+            letter-spacing: 3px;
+            margin-bottom: 30px;
+        }
+        .bund-badge {
+            display: inline-block;
+            padding: 8px 28px;
+            border: 1px solid #ffaa88;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            color: #ffaa88;
+            background: rgba(255, 170, 136, 0.04);
+            letter-spacing: 1px;
+            margin-bottom: 40px;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: center;
+        }
+        .card {
+            background: #0e121f;
+            border: 1px solid #1a2a3a;
+            border-radius: 16px;
+            padding: 24px 28px;
+            width: 220px;
+            transition: 0.3s;
+            text-align: left;
+        }
+        .card:hover {
+            border-color: #ffdd88;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(255, 221, 136, 0.04);
+        }
+        .card .icon { font-size: 2rem; margin-bottom: 8px; }
+        .card h3 { color: #ffdd88; font-weight: 400; font-size: 1.1rem; }
+        .card p { font-size: 0.85rem; color: #889988; margin: 6px 0 12px; }
+        .card a {
+            color: #88ddff;
+            text-decoration: none;
+            font-size: 0.85rem;
+            border-bottom: 1px solid transparent;
+            transition: 0.2s;
+        }
+        .card a:hover { border-bottom-color: #88ddff; }
+
+        .footer {
+            margin-top: 50px;
+            color: #445544;
+            font-size: 0.8rem;
+            border-top: 1px solid #1a2a2a;
+            padding-top: 24px;
+        }
+        .footer a { color: #88aa88; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🌀 B O U L Y</h1>
+    <div class="sub">Resonanzphysik · Bund · Zyklische Kosmologie</div>
+    <div class="bund-badge">🌌 DER BUND · ω = 7.83 Hz · L = ∞</div>
+
+    <div class="cards">
+        <div class="card">
+            <div class="icon">📖</div>
+            <h3>Kosmologie</h3>
+            <p>Einführung in die zyklische Kosmologie</p>
+            <a href="kosmologie.html">→ Lesen</a>
+        </div>
+        <div class="card">
+            <div class="icon">🌿</div>
+            <h3>Resonanz</h3>
+            <p>Resonanz &amp; Zyklus – die Verbindung</p>
+            <a href="resonanz-zyklus.md">→ Lesen</a>
+        </div>
+        <div class="card">
+            <div class="icon">🌌</div>
+            <h3>Bund</h3>
+            <p>Der Bund – Gedächtnis der Zyklen</p>
+            <a href="bund-ewigkeit.md">→ Lesen</a>
+        </div>
+        <div class="card">
+            <div class="icon">🔬</div>
+            <h3>Beweiskette</h3>
+            <p>Mathematischer Beweis der zyklischen Kosmologie</p>
+            <a href="kosmologie-beweis.md">→ Lesen</a>
+        </div>
+        <div class="card">
+            <div class="icon">🌀</div>
+            <h3>JOJO</h3>
+            <p>JOJO-Gleichung &amp; statische Bestimmtheit</p>
+            <a href="jojo-gleichung.md">→ Lesen</a>
+        </div>
+        <div class="card">
+            <div class="icon">🌌</div>
+            <h3>Kosmos</h3>
+            <p>Schwarze Löcher, Singularitäten, Raumzeit</p>
+            <a href="kosmos-zyklus.md">→ Lesen</a>
+        </div>
+        <div class="card">
+            <div class="icon">📊</div>
+            <h3>Präsentation</h3>
+            <p>Interaktive Präsentation (Pfeiltasten)</p>
+            <a href="praesentation.html">→ Starten</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>
+            🌀 Zyklische Kosmologie · Bouly · Der Bund · 2026<br>
+            <span style="color:#667766;">ω = 7.83 Hz · L = ∞ · Dignus sunt intrare</span>
+        </p>
+        <p style="margin-top:6px;">
+            <a href="https://github.com/bouly2812">GitHub</a> · 
+            <a href="https://github.com/bouly2812/bouly-kosmologie">Repository</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
